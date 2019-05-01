@@ -3,7 +3,6 @@
 
 char *str_comp(char *desk,char *src,int z);
 
-
 int main()
 {
     int n=20,c;
@@ -35,7 +34,6 @@ char *str_comp(char *desk,char *src,int z)
         }
         else if (*desk>*src)
         {
-
             return 1;
         }
         else
